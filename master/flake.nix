@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-parseini-master.flake = false;
+  inputs.src-parseini-master.ref   = "refs/heads/master";
   inputs.src-parseini-master.owner = "lihf8515";
-  inputs.src-parseini-master.ref   = "master";
   inputs.src-parseini-master.repo  = "parseini";
   inputs.src-parseini-master.type  = "github";
   

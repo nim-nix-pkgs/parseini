@@ -11,7 +11,6 @@
   inputs.src-parseini-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-parseini-0_1_0.owner = "lihf8515";
   inputs.src-parseini-0_1_0.repo  = "parseini";
-  inputs.src-parseini-0_1_0.dir   = "";
   inputs.src-parseini-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
